@@ -1,0 +1,17 @@
+/* ##Mixins */
+
+@mixin heading($size) {
+	font-family: $heading-font-stack;
+	color: $primary-font-color;
+	font-size: $size;
+	padding-bottom: 0.5em;
+	margin: 0;
+}
+
+@mixin paragraph($size) {
+	font-family: $paragraph-font-stack;
+	color: $primary-font-color;
+	line-height: 1.5;
+	font-size: $size;
+	padding-bottom: 0.75em;
+}

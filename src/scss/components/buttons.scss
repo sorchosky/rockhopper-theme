@@ -1,0 +1,39 @@
+/* ##Buttons */
+
+.tempur-pedic-wrapper{
+
+  .logotype{
+    display: block;
+    margin-left: 0;
+    max-height: 2em;
+  }
+
+  .button{
+    background-color: #1f356e;
+    color: #fff;
+    text-decoration: none;
+    font-family: "din", helvetica, sans-serif;
+    font-weight: 600;
+    padding: 0.625em 0.815em;
+    text-transform: uppercase;
+    border-radius: 0.56em;
+    transition: 0.3s;
+  }
+
+  .button-white{
+    background-color: #fff;
+  }
+
+  .button:hover{
+    opacity: 0.75;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+  a:hover{
+    cursor:pointer;
+  }
+
+}
